@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html {% block html_attributes %}class="no-js"{% endblock %}>
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/AdminLTE/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/AdminLTE/css/ionicons.min.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/AdminLTE/css/AdminLTE.css">
+    <link rel="stylesheet" href="/bundles/sonatacore/vendor/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/jqueryui/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/select2/select2.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/select2/select2-bootstrap.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/css/styles.css">
+    <link rel="stylesheet" href="/bundles/sonataadmin/css/layout.css">
+
+
+    <script>
+        window.SONATA_CONFIG = {
+            CONFIRM_EXIT: true,
+            USE_SELECT2: true,
+            USE_ICHECK: true                };
+        window.SONATA_TRANSLATIONS = {
+            CONFIRM_EXIT:  'Vous\x20avez\x20effectu\u00E9\x20des\x20modifications\x20non\x20sauvegard\u00E9es.'
+        };
+    </script>
+
+    <script src="/bundles/sonataadmin/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/bundles/sonataadmin/vendor/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="/bundles/sonatacore/vendor/moment/min/moment.min.js"></script>
+    <script src="/bundles/sonataadmin/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bundles/sonatacore/vendor/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="/bundles/sonataadmin/vendor/jqueryui/ui/minified/jquery-ui.min.js"></script>
+    <script src="/bundles/sonataadmin/vendor/jqueryui/ui/minified/i18n/jquery-ui-i18n.min.js"></script>
+    <script src="/bundles/sonataadmin/jquery/jquery.form.js"></script>
+    <script src="/bundles/sonataadmin/jquery/jquery.confirmExit.js"></script>
+    <script src="/bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    <script src="/bundles/sonataadmin/vendor/select2/select2.min.js"></script>
+    <script src="/bundles/sonataadmin/App.js"></script>
+    <script src="/bundles/sonataadmin/Admin.js"></script>
+
+
+    <script src="/bundles/sonataadmin/vendor/select2/select2_locale_fr.js"></script>
+    <script src="/bundles/fosjsrouting/js/router.js"></script>
+    <script src="/js/routing?callback=fos.Router.setData"></script>
+    <title>
+       YasminePress
+    </title>
+</head>
+<body>
+
+    {% block fos_user_content %}
+    {% endblock fos_user_content %}
+
+</body></html>

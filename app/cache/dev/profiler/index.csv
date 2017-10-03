@@ -1,0 +1,5 @@
+5793fd,127.0.0.1,GET,http://mailing.local/app_dev.php/login,1462733976,,200
+411247,127.0.0.1,POST,http://mailing.local/app_dev.php/login_check,1462733993,,302
+6dbb66,127.0.0.1,GET,http://mailing.local/app_dev.php/,1462733993,,301
+86bbe3,127.0.0.1,GET,http://mailing.local/app_dev.php/dashboard,1462733994,,200
+bb60a3,127.0.0.1,GET,http://mailing.local/app_dev.php/js/routing?callback=fos.Router.setData,1462733994,,200
