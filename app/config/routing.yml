@@ -2,9 +2,9 @@ mailing:
     resource: "@MailingBundle/Resources/config/routing.yml"
     prefix:   /preview
 
-print:
-    resource: "@PrintBundle/Resources/config/routing.yml"
-    prefix:   /ddd
+#print:
+#    resource: "@PrintBundle/Resources/config/routing.yml"
+#    prefix:   /ddd
 
 fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"

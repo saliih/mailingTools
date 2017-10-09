@@ -29,10 +29,11 @@ class AppKernel extends Kernel
             new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
             new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
-            new MailingBundle\MailingBundle(), new WhiteOctober\TCPDFBundle\WhiteOctoberTCPDFBundle(),
+            new MailingBundle\MailingBundle(),
+			//new WhiteOctober\TCPDFBundle\WhiteOctoberTCPDFBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
 
-            new PrintBundle\PrintBundle(),
+            //new PrintBundle\PrintBundle(),
 
 
 
