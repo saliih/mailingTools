@@ -41,7 +41,7 @@ class mailinglist
     }
     public function __toString()
     {
-        return $this->email;
+        return (string)$this->email;
     }
 
     /**

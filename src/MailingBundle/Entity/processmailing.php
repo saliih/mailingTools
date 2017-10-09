@@ -44,6 +44,11 @@ class processmailing
         return $this->id;
     }
 
+    public function __toString()
+    {
+        return (string)$this->id;
+    }
+
     /**
      * Set email
      *
